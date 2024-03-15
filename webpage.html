@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Ashwathama Organization</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Ashwathama Organization</h1>
+            <nav>
+                <ul>
+                    <li><a href="#mission">Mission</a></li>
+                    <li><a href="#programs">Programs</a></li>
+                    <li><a href="#events">Events</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <br>
+<p>Welcome to Ashwathama Organization!<br><br>
+
+    At Ashwathama Organization , we believe in the power of collective action to create positive change in the world. As a nonprofit organization, we are dedicated to provide the support for the people in need, we are committed to serving the public interest and pursuing missions that benefit society, the environment, or specific communities.
+    
+    Driven by our mission to make this world a better place for people to live in, we are working tirelessly to achieve this goal. Through our programs and initiatives, we strive to enlighten people about our missions and goals.
+    
+    At the heart of our work is a deep commitment to core values and principles, which guide everything we do. We believe in unity of people, and we are very passionate to achieve the goal with your help.<br><br>
+    
+    Ashwathama organization operates with transparency, accountability, and integrity. We are proud of our track record of various successfull events , programs that were conducted all over thw world.This was only possible because of our dedicated team of staff and volunteers  who work tirelessly.<br><br>
+    
+    We invite you to explore our website to learn more about our programs, events, and how you can get involved. Together, we can make a meaningful difference in the lives of [mention target beneficiaries or communities] and create a brighter future for all.<br><br>
+    
+    Thank you for visiting Ashwathama Organization. We look forward to partnering with you to achieve our shared goals.
+    
+    </p>
+<!-- Mission Section -->
+<section id="mission">
+  <h2>Mission</h2>
+  <p>Our missions vary widely, but generally, they aim to address social, environmental, or cultural needs. To know more about our missions, click below.</p>
+  <button onclick="toggleVisibility('missionsDetail')" class="button">Click Here</button>
+</section>
+
+<!-- Programs Section -->
+<section id="programs">
+  <h2>Programs</h2>
+  <p>Our organization offer a variety of programs tailored to fulfill their missions and serve their target populations.click below.</p>
+  <button onclick="toggleVisibility('programsDetail')" class="button">Click Here</button>
+</section>
+
+<!-- Events Section -->
+<section id="events">
+  <h2>Events</h2>
+  <p>Our organization frequently organize events to engage their supporters, raise funds, increase awareness about their causes, and build a sense of community.click below.</p>
+  <button onclick="toggleVisibility('eventsDetail')" class="button">Click Here</button>
+</section>
+
+<!-- Detailed Information Sections (Initially Hidden) -->
+<section id="missionsDetail" style="display: none;">
+  <h2>Our Missions</h2>
+  <ul>
+    <li>Charities: Providing aid and support to those in need.</li>
+    <li>Advocacy Organizations: Promoting social or political change.</li>
+    <li>Educational Institutions: Offering educational opportunities and skill development.</li>
+    <li>Arts and Culture Organizations: Promoting and preserving arts, culture, and heritage.</li>
+  </ul>
+</section>
+
+<section id="programsDetail" style="display: none;">
+  <h2>Our Programs</h2>
+  <ul>
+    <li>Social Services Programs:These programs aim to meet the basic needs of indiviuals and families, such as food assistance, housing support, clothing distributon.</li>
+    <li>Eduaction and training Programs: Our aim is to provide educational opportunities and skill development programs to empower indiviuals and commmunities.</li>
+    <li>Health and Wellness Programs:Our aim is to focus on promoting health and well-being through programs such as healthcare clinics, wellness workshops.</li>
+  </ul>
+</section>
+
+<section id="eventsDetail" style="display: none;">
+  <h2>Events</h2>
+  <ul>
+    <li>Fundraising Events:We often host fundraising events to generate financial support for their programs and initiatives. These events can include galas, charity auctions, benefit concerts, walkathons.</li>
+    <li>Awareness Campaigns:We use events to raise awareness about social issues, advocate for policy change, and educate the public. These events may include rallies, marches, demonstrations, panel discussions, film screenings, and workshops.</li>
+    <li>Community Outreach Events: We organize community outreach events to connect with the people they serve and engage with the broader community. These events can include health fairs, resource fairs, job fairs, neighborhood clean-ups, and volunteer days.</li>
+  </ul>
+</section>
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Non-Profit Organization. All rights reserved.</p>
+    </div>
+</footer>
+<!--javascript-->
+<script>
+  function toggleVisibility(id) {
+    var section = document.getElementById(id);
+    if (section.style.display === "none") {
+      section.style.display = "block";
+    } else {
+      section.style.display = "none";
+    }
+  }
+</script>
+<!--CSS-->
+<style>
+  section {
+    margin-bottom: 20px;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: #0056b3;
+  }
+</style>
+
+</body>
+</html>
